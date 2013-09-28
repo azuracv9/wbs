@@ -1,0 +1,20 @@
+*{margin: 0;padding: 0;}
+.main{
+	width: 500px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.kolom-kiri,
+.kolom-kanan{
+	float: left;
+	width: 200px;
+	padding-bottom: 40000px;
+	margin-bottom: -40000px;
+	background: green;
+	color: white;
+}
+.kolom-kanan{
+	width: 300px;
+	background: yellow;
+	color: black;
+}
